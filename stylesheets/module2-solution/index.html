@@ -1,1 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Best soccer teams in the world</title>
+<style>
 
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+}
+
+p {
+  border: 1px solid black;
+  background-color: #4d4dff;
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Arial;
+  color: white;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Desktop devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3 {
+    float: left;
+  }
+  .col-lg-1 {
+    border: 1px solid red;
+    background-color: #4d4dff;
+    width: 33.33%;
+    color: red;
+  }
+  .col-lg-2 {
+    border: 1px solid purple;
+    background-color: #f2f2f2;
+    width: 66.66%;
+    color: purple;
+  }
+  .col-lg-3 {
+    border: 1px solid blue;
+    background-color: #ff0000;
+    width: 99.99%;
+    color: white;
+  }
+  
+}
+
+/********** Tablet devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3 {
+    float: left;
+  }
+  .col-md-1 {
+    border: 1px solid red;
+    background-color: #4d4dff;
+    width: 33.33%;
+    color: red;
+  }
+  .col-md-2 {
+    border: 1px solid purple;
+    background-color: #f2f2f2;
+    width: 66.66%;
+    color: purple;
+  }
+  .col-md-3 {
+    border: 1px solid blue;
+    background-color: #ff0000;
+    width: 99.99%;
+    color: white;
+  }
+  
+}
+
+/********** Mobile devices only **********/
+@media (max-width: 767px) {
+  .col-lg-1, .col-lg-2, .col-lg-3 {
+    float: left;
+  }
+  .col-lg-1 {
+    border: 1px solid red;
+    background-color: #4d4dff;
+    width: 33.33%;
+    color: red;
+  }
+  .col-lg-2 {
+    border: 1px solid purple;
+    background-color: #f2f2f2;
+    width: 66.66%;
+    color: purple;
+  }
+  .col-lg-3 {
+    border: 1px solid blue;
+    background-color: #ff0000;
+    width: 99.99%;
+    color: white;
+  }
+  
+}
+  
+</style>
+</head>
+<body>
+<h1>Best soccer teams in the world</h1>
+
+<div class="row">
+  <div class="col-lg-3 col-md-6"><p>F.C. Barcelona.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+  <div class="col-lg-3 col-md-6"><p>Real Madrid C.F.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+  <div class="col-lg-3 col-md-6"><p>Atletico Madrid.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+</div>
+
+</body>
+</html>
