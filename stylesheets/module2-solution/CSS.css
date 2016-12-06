@@ -27,13 +27,13 @@ h2 {
   top: 0px;
   right: 0px;
 }
-#chicken {
+#barcelona {
   background-color: #B56357;
 }
-#beef {
+#madrid {
   background-color: #B4DBC0;
 }
-#sushi {
+#atletico {
   background-color: #A7B3A5;
 }
 
@@ -176,7 +176,4 @@ p {
     width: 100%;
   }
 }
-  h2{display:block;}
- .madrid h2{background-color: #4d4dff;}
- .barcelona h2{background-color: #ff00ff;}
- .atletico h2{background-color: #fff;}
+
