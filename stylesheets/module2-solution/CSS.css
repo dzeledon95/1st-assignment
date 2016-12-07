@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: Helvetica, sans-serif;
+  font-family: Times, sans-serif;
 }
 h1 {
   margin-top: 30px;
@@ -15,7 +15,7 @@ div.inner {
   position: relative;
   border: 1px solid black;
   margin: 10px;
-  background-color: #EAE3EA;
+  background-color: #E9967A;
 }
 
 h2 {
